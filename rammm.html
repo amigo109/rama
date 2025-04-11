@@ -3,59 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sri Ram Navami Celebration</title>
+    <title>Six Languages</title>
     <style>
-        body {
-            display: flex; /* Use flexbox to create a two-column layout */
-            height: 100vh; /* Full height of the viewport */
-            margin: 0; /* Remove default margin */
+        /* CSS Styles for Six Different Languages with Unique Colors */
+
+        /* English */
+        .english {
+            color: #3498db; /* Blue */
             font-family: Arial, sans-serif;
+            font-size: 16px;
+            font-weight: bold;
         }
-        .left {
-            flex: 1; /* Take up half of the width */
-            background-color: #f9f9f9;
-            padding: 20px;
-            text-align: center;
-        }
-        .right {
-            flex: 1; /* Take up half of the width */
-            background-color: #fff;
-            padding: 20px;
-            text-align: center;
-            border-left: 2px solid #ffcc00; /* Optional border for separation */
-        }
-        .button {
-            display: inline-block;
-            background-color: #ff6600;
-            color: white;
-            padding: 15px 30px;
-            text-decoration: none; /* Remove underline */
-            border-radius: 5px;
+
+        /* Spanish */
+        .spanish {
+            color: #e74c3c; /* Red */
+            font-family: 'Courier New', Courier, monospace;
             font-size: 18px;
-            transition: background-color 0.3s;
+            font-style: italic;
         }
-        .button:hover {
-            background-color: #e65c00;
+
+        /* French */
+        .french {
+            color: #2ecc71; /* Green */
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            text-transform: uppercase;
         }
-        iframe {
-            width: 100%; /* Full width of the right column */
-            height: 100%; /* Full height of the right column */
-            border: none; /* Remove border */
+
+        /* German */
+        .german {
+            color: #f39c12; /* Orange */
+            font-family: Georgia, serif;
+            font-size: 18px;
+            letter-spacing: 1px;
+        }
+
+        /* Italian */
+        .italian {
+            color: #9b59b6; /* Purple */
+            font-family: 'Verdana', Geneva, sans-serif;
+            font-size: 16px;
+            text-decoration: underline;
+        }
+
+        /* Japanese */
+        .japanese {
+            color: #1abc9c; /* Teal */
+            font-family: 'Yu Gothic', 'Meiryo', sans-serif;
+            font-size: 20px;
+            font-weight: normal;
         }
     </style>
 </head>
 <body>
 
-    <div class="left">
-        <h1>Welcome to the Sri Ram Navami Celebration!</h1>
-        <p>Click the button below to view the invitation.</p>
-        <a href="invitation.html" class="button" target="invitationFrame">View Invitation</a>
-    </div>
-
-    <div class="right">
-        <h2>Invitation</h2>
-        <iframe src="invitation.html" name="invitationFrame"></iframe>
-    </div>
+    <p class="english">Hello, how are you?</p>
+    <p class="spanish">Hola, ¿cómo estás?</p>
+    <p class="french">Bonjour, comment ça va ?</p>
+    <p class="german">Hallo, wie geht es dir?</p>
+    <p class="italian">Ciao, come stai?</p>
+    <p class="japanese">こんにちは、元気ですか？</p>
 
 </body>
 </html>
